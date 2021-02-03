@@ -1,0 +1,26 @@
+2021-01-16T15:43:05+00:00 CRITICAL Uncaught WC_Data_Exception: The admin note status prop (pending) is not one of the supported statuses. in C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php:810
+Stack trace:
+#0 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Note.php(448): WC_Data->error('admin_note_inva...', 'The admin note ...')
+#1 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\DataStore.php(108): Automattic\WooCommerce\Admin\Notes\WC_Admin_Note->set_status('pending')
+#2 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Automattic\WooCommerce\Admin\Notes\DataStore->read(Object(Automattic\WooCommerce\Admin\Notes\WC_Admin_Note))
+#3 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Note.php(83): WC_Data_Store->read(Object(Automattic\WooCommerce\Admin\Notes\WC_Admin_Note))
+#4 C:\xampp\htdocs\ebazar\wp-content\plugins in C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php on line 810
+
+2021-01-16T15:43:29+00:00 CRITICAL Uncaught WC_Data_Exception: The admin note status prop (pending) is not one of the supported statuses. in C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php:810
+Stack trace:
+#0 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Note.php(448): WC_Data->error('admin_note_inva...', 'The admin note ...')
+#1 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\DataStore.php(108): Automattic\WooCommerce\Admin\Notes\WC_Admin_Note->set_status('pending')
+#2 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Automattic\WooCommerce\Admin\Notes\DataStore->read(Object(Automattic\WooCommerce\Admin\Notes\WC_Admin_Note))
+#3 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Note.php(83): WC_Data_Store->read(Object(Automattic\WooCommerce\Admin\Notes\WC_Admin_Note))
+#4 C:\xampp\htdocs\ebazar\wp-content\plugins in C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php on line 810
+
+2021-01-16T15:43:49+00:00 CRITICAL Uncaught WC_Data_Exception: The admin note status prop (pending) is not one of the supported statuses. in C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php:810
+Stack trace:
+#0 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Note.php(448): WC_Data->error('admin_note_inva...', 'The admin note ...')
+#1 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\DataStore.php(108): Automattic\WooCommerce\Admin\Notes\WC_Admin_Note->set_status('pending')
+#2 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Automattic\WooCommerce\Admin\Notes\DataStore->read(Object(Automattic\WooCommerce\Admin\Notes\WC_Admin_Note))
+#3 C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Note.php(83): WC_Data_Store->read(Object(Automattic\WooCommerce\Admin\Notes\WC_Admin_Note))
+#4 C:\xampp\htdocs\ebazar\wp-content\plugins in C:\xampp\htdocs\ebazar\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php on line 810
+
+2021-01-16T15:46:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ebazar\wp-includes\Requests\Transport\cURL.php on line 463
+
